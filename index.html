@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panaderia</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="./index.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"defer
+    ></script>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <nav class="navbar">
+            <ul>
+                <a href="#banner">Inicio</a>
+                <a href="#menu">Menu</a>
+                <a href="#ubicacion">Ubicacion</a>
+                <a href="#contacto">Contacto</a>
+            </ul>
+        </nav>
+
+        <div id="banner">
+        </div>
+
+
+        <div class="main">
+            <p id="menu"></p>
+            <div class="menu">
+
+                <h1>Menu</h1>
+                </p>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <div class="card">
+                        <p class="nombre-producto">Pan 1</p>
+                        <img class="image" src="grid1.jpg" alt="">
+                        <p class="precio-producto">30 pesos/pieza</p>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <p class="nombre-producto">Pan 2</p>
+                    <img class="image" src="grid2.jpg" alt="">
+                    <p class="precio-producto">30 pesos/pieza</p>
+                </div>
+
+                <div class="grid-item">
+                    <p class="nombre-producto">Pan 3</p>
+                    <img class="image" src="grid3.jpg" alt="">
+                    <p class="precio-producto">30 pesos/pieza</p>
+                </div>
+
+                <div class="grid-item">
+                    <p class="nombre-producto">Pan 4</p>
+                    <img class="image" src="grid4.jpg" alt="">
+                    <p class="precio-producto">30 pesos/pieza</p>
+                </div>
+
+                <div class="grid-item">
+                    <p class="nombre-producto">Pan 5</p>
+                    <img class="image" src="grid5.jpg" alt="">
+                    <p class="precio-producto">30 pesos/pieza</p>
+                </div>
+
+                <div class="grid-item">
+                    <p class="nombre-producto">Pan 6</p>
+                    <img class="image" src="grid6.jpg" alt="">
+                    <p class="precio-producto">30 pesos/pieza</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <p id="contacto"></p>
+            <h1>Contacto</h1>
+            <form action="/index.html">
+                <label for="fname">Nombre</label>
+                <input type="text" id="fname" name="firstname" placeholder="Nombre">
+
+                <label for="lname">Apellido</label>
+                <input type="text" id="lname" name="lastname" placeholder="Apellido">
+
+                <label for="email">Correo Electronico</label>
+                <input type="text" id="email" name="email" placeholder="Correo Electronico">
+
+                <label for="subject">Asunto</label>
+                <textarea id="subject" name="subject" placeholder="Escriba un comentario"
+                    style="height:200px"></textarea>
+
+                <input type="submit" value="Subir">
+            </form>
+        </div>
+    </div>
+
+
+
+
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+
+<div id="map"></div>
+
+
+<footer>
+    <div class="footer">
+        <div class="row">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+
+        <div class="row">
+            <ul>
+                <li><a href="#banner">Inicio </a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#ubicacion">Ubicacion</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+
+            </ul>
+        </div>
+
+        <div class="row">
+            PINERUS Copyright © 2023 Pino - All rights reserved || Designed By: oscarxpino
+        </div>
+    </div>
+</footer>
+</body>
+</html>
